@@ -153,5 +153,6 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "main": "webpack.config.js"
 }
