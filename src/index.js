@@ -1,4 +1,4 @@
-// import './style.css';
+import './style.css';
 import { submit, scoreList, refreshBtn } from './modules/project.js';
 
 submit.addEventListener('click', async (e) => {
