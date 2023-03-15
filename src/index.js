@@ -44,6 +44,7 @@ refreshBtn.addEventListener('click', async () => {
     // refresh
     data.result.forEach((item) => {
       const scoreListItem = document.createElement('li');
+      scoreListItem.classList.add('score');
       scoreListItem.innerHTML = `<span class="user-name">${item.user}</span><span class="user-score">${item.score}</span>`;
       scoreList.append(scoreListItem);
     });
