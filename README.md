@@ -124,6 +124,8 @@ Example command:
 
 To run the project, execute the following command:
 
+To get the recent results of the score and data use GET method to fetch the scores from API
+
 <!--
 Example command:
 

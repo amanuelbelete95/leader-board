@@ -11,13 +11,12 @@ submit.addEventListener('click', async (e) => {
     score: score.value,
   };
 
-  // api
 
   try {
     const response = await fetch(
       'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/yUygKodDLYdAmKpLwZrz/scores/',
       {
-        method: 'POST', // or 'PUT'
+        method: 'POST', 
         headers: {
           'Content-Type': 'application/json',
         },
@@ -32,7 +31,6 @@ submit.addEventListener('click', async (e) => {
   }
 });
 
-// / refreshBtn
 
 refreshBtn.addEventListener('click', async () => {
   scoreList.innerHTML = '';
@@ -41,11 +39,11 @@ refreshBtn.addEventListener('click', async () => {
       'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/yUygKodDLYdAmKpLwZrz/scores/',
     );
     const data = await response.json();
-    // refresh
+    
     data.result.forEach((item) => {
       const scoreListItem = document.createElement('li');
       scoreListItem.classList.add('score');
-      scoreListItem.innerHTML = `<span class="user-name">${item.user}</span><span class="user-score">${item.score}</span>`;
+      scoreListItem.innerHTML = `<span class="user-name">${item.user}:</span><span class="user-score">${item.score}</span>`;
       scoreList.append(scoreListItem);
     });
   } catch (error) {

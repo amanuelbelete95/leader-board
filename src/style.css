@@ -23,8 +23,6 @@ header {
   padding: 50px;
   display: flex;
   gap: 30px;
-
-  /* justify-content: space-between; */
 }
 
 .left-side {
@@ -48,6 +46,7 @@ header {
 .score {
   padding: 10px;
   width: 200px;
+  width: 100%;
 }
 
 .score:nth-child(odd) {
