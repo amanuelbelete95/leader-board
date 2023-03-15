@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" type="text/css" />
     <title>Development</title>
   </head>
   <body>
@@ -14,36 +15,7 @@
           <h1>Recent scores</h1>
           <button class="btn" type="button" id="refresh">Refresh</button>
         </div>
-        <table>
-          <tr>
-            <th>Name:</th>
-            <td>10</td>
-          </tr>
-          <tr>
-            <th>Name:</th>
-            <td>20</td>
-          </tr>
-          <tr>
-            <th>Name:</th>
-            <td>50</td>
-          </tr>
-          <tr>
-            <th>Name:</th>
-            <td>78</td>
-          </tr>
-          <tr>
-            <th>Name:</th>
-            <td>125</td>
-          </tr>
-          <tr>
-            <th>Name:</th>
-            <td>77</td>
-          </tr>
-          <tr>
-            <th>Name:</th>
-            <td>42</td>
-          </tr>
-        </table>
+        <ul class="score-list"></ul>
       </div>
       <form action="#" class="form">
         <h1 class="headform">Add Your Score</h1>
@@ -64,5 +36,6 @@
         <input type="submit" value="Submit" class="submit" />
       </form>
     </section>
+    <script type="module" src="./index.js"></script>
   </body>
 </html>

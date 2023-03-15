@@ -33,7 +33,7 @@ header {
 .btn {
   height: 30px;
 }
-
+/* 
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -49,7 +49,7 @@ td {
 
 tr:nth-child(even) {
   background-color: #f2f2f2;
-}
+} */
 
 .form {
   display: flex;
