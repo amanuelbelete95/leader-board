@@ -1,8 +1,6 @@
 // import './style.css';
 import { submit, scoreList, refreshBtn } from './modules/project.js';
 
-
-
 submit.addEventListener('click', async (e) => {
   e.preventDefault();
   const userName = document.querySelector('#name');
@@ -12,7 +10,6 @@ submit.addEventListener('click', async (e) => {
     user: userName.value,
     score: score.value,
   };
-
 
   // api
 
@@ -33,7 +30,6 @@ submit.addEventListener('click', async (e) => {
   } catch (error) {
     throw Error(error);
   }
-
 });
 
 // / refreshBtn
@@ -55,5 +51,3 @@ refreshBtn.addEventListener('click', async () => {
     throw Error(error);
   }
 });
-
-
