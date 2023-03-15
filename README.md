@@ -1,10 +1,10 @@
 <a name="readme-top"></a>
 
-# The repository is created to list a to do daily activity.
+# The repository is created keep track of game scores.
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <h1><b>TO DO LIST AMANUEL</b></h1>
+  <h1><b>Leader-Board AMANUEL</b></h1>
   <br/>
 
 </div>
