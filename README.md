@@ -64,7 +64,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [live](https://github.com/amanuelbelete95/leader-board/src/)
+- [live](https://amanuelbelete95.github.io/leader-board/src/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
